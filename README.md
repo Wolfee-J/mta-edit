@@ -1,4 +1,4 @@
 # mta edit
 
 The Future in MTA Map editing
-(First commit TBA)
+(First commit coming tomorrow night)
