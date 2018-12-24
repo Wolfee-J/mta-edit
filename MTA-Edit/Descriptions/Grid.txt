@@ -1,0 +1,3 @@
+Set the grid size, use the 
+'Grid' bind to snap elements
+to the grid.

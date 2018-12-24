@@ -1,0 +1,4 @@
+Allows you to edit
+NPCs, inlcuding paths
+animation and AI.
+(WIP)

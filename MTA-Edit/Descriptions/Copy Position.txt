@@ -1,0 +1,3 @@
+Copy Position of selected
+elements to clipboard and
+logically

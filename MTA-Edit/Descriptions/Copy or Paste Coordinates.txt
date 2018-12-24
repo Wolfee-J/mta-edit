@@ -1,0 +1,3 @@
+Copy coordinates logically
+or to clipboard; or paste
+logically

@@ -1,0 +1,254 @@
+<meta>
+	<info type="script" name="Map Editor 2.0" author="CodyJ" description="JEditor" version="1.0.0" />
+	<oop>true</oop> 
+	<script type="client" src="Client/Client.lua" />
+	<script type="client" src="Client/Image.lua" />
+	<script type="client" src="Client/Menus.lua" />
+	<script type="client" src="Client/Menu Functions.lua" />
+	<script type="client" src="Client/Right Click Menu.lua" />
+	<script type="client" src="Client/Object Creation.lua" />
+	<script type="client" src="Client/Vehicle Creation.lua" />
+	<script type="client" src="Client/Binds.lua" />
+	<script type="client" src="Client/Editor Settings.lua" />
+	<script type="client" src="Client/Map Settings.lua" />
+	<script type="client" src="Client/Color Picker.lua" />
+	<script type="client" src="Client/Edit Box.lua" />
+	<script type="client" src="Client/Transformation Manipulation.lua" />
+	<script type="client" src="Client/QuaternionLib.lua" />
+	<script type="client" src="Client/Object Descriptions.lua" />
+	<script type="client" src="Client/Highlight.lua" />
+	<script type="client" src="Client/Freecam_MISC.lua" />
+	<script type="client" src="Client/Freecam.lua" />
+	<script type="client" src="Client/Element Settings.lua" />
+	<script type="client" src="Client/Gimbals.lua" />
+	<script type="client" src="Client/Bounding Box.lua" />
+	<script type="client" src="Client/EDF System.lua" />
+	<script type="client" src="Client/World Element Handler.lua" />
+	<script type="client" src="Client/Magnets.lua" />
+	<script type="client" src="Client/Cache.lua" />
+	<script type="client" src="Client/Stack Element.lua" />
+	<script type="client" src="Client/Description System.lua" />
+	<script type="client" src="Client/Translation System.lua" />
+	<script type="client" src="Client/Element Manipulation Get.lua" />
+	<script type="client" src="Client/Element Manipulation Set.lua" />
+	<script type="client" src="Client/Undo Redo System.lua" />
+	<script type="client" src="Client/Search.lua" />
+	<script type="client" src="Client/Grid Snap.lua" />
+	
+	<script type="server" src="Server/Server.lua" />
+	<script type="server" src="Server/Game Mode System.lua" />
+	<script type="server" src="Server/Object Creation.lua" />
+	<script type="server" src="Server/Vehicle Creation.lua" />
+	<script type="server" src="Server/EDF Creation.lua" />
+	<script type="server" src="Server/Transformation Manipulation.lua" />
+	<script type="server" src="Server/Element Manipulation.lua" />
+	<script type="server" src="Server/Description System.lua" />
+	<script type="server" src="Server/Translation System.lua" />
+	<script type="server" src="Server/World Element Handler.lua" />
+	
+	
+	<file src="Content/EDF/checkpoint.png" />
+	<file src="Content/EDF/flag.png" />
+	<file src="Content/EDF/mercenaryspawn.png" />
+	<file src="Content/EDF/racepickup.png" />
+	<file src="Content/EDF/spawnpoint.png" />
+	<file src="Content/EDF/spyspawn.png" />
+	<file src="Content/EDF/team.png" />
+	<file src="Content/EDF/weapon.png" />
+	<file src="Content/EDF/briefcase.png" />
+	<file src="Content/EDF/objective.png" />
+		
+	<file src="Content/SelectorCol.fx" />
+	<file src="Content/Highlight.fx" />
+	
+	
+	<file src="Content/arrow.png" />
+	<file src="Content/Customize.png" />
+	<file src="Content/New Element.png" />
+	<file src="Content/Ped Editor.png" />
+	<file src="Content/Load.png" />
+	<file src="Content/Settings.png" />
+	
+	<file src="Content/Crosshair_C.png" />
+	<file src="Content/Crosshair.png" />
+
+	<file src="Content/Circle.dff" />
+	<file src="Content/Circle.col" />
+	
+	<file src="Content/Save.png" />
+	<file src="Content/Preview.png" />
+	<file src="Content/freeCam.png" />
+	<file src="Content/Controls.png" />
+	
+	<file src="Content/Speed.png" />
+	<file src="Content/Boundries.png" />
+	<file src="Content/Movement.png" />
+	<file src="Content/Rotation.png" />
+	<file src="Content/Scale.png" />
+	<file src="Content/Move Type.png" />
+	<file src="Content/Magnets.png" />
+	<file src="Content/Snap.png" />
+	<file src="Content/Depth.png" />
+	<file src="Content/Check.png" />
+	<file src="Content/Object.png" />
+	<file src="Content/Create Vehicle.png" />
+	<file src="Content/Favorite.png" />
+	<file src="Content/Copy Selected.png" />
+	<file src="Content/Copy Position.png" />
+	<file src="Content/Copy Rotation.png" />
+	<file src="Content/Delete Selected.png" />
+	<file src="Content/Select All.png" />
+	<file src="Content/Deselect All.png" />
+	<file src="Content/Undo.png" />
+	<file src="Content/Redo.png" />
+	<file src="Content/Grid.png" />
+	<file src="Content/Restore Model.png" />
+
+	<file src="Content/sv.png" />
+	<file src="Content/hv.png" />
+	<file src="Content/close.png" />
+	<file src="Content/cursor.png" />
+	<file src="Content/cursor2.png" />
+	
+	<file src="Content/Circle.png" />
+	<file src="Content/CircleSelected.png" />
+	
+	
+	<file src="Lists/Object Lists/Alpha and Non Collidable.list" />
+	<file src="Lists/Object Lists/Nighttime Objects.list" />
+	<file src="Lists/Object Lists/Beach and Sea.list" />
+	<file src="Lists/Object Lists/buildings.list" />
+	<file src="Lists/Object Lists/Car parts.list" />
+	<file src="Lists/Object Lists/Weapon Models.list" />
+	<file src="Lists/Object Lists/industrial.list" />
+	<file src="Lists/Object Lists/interior objects.list" />
+	<file src="Lists/Object Lists/land masses.list" />
+	<file src="Lists/Object Lists/miscellaneous.list" />
+	<file src="Lists/Object Lists/nature.list" />
+	<file src="Lists/Object Lists/structures.list" />
+	<file src="Lists/Object Lists/transportation.list" />
+	<file src="Lists/Object Lists/Wires and Cables.list" />	
+	
+	<file src="Lists/Vehicle Lists/Motorbikes.list" />
+	<file src="Lists/Vehicle Lists/Helicopters.list" />
+	<file src="Lists/Vehicle Lists/4-Door.list" />
+	<file src="Lists/Vehicle Lists/Emergency.list" />
+	<file src="Lists/Vehicle Lists/Planes, Jets and Airlines.list" />
+	<file src="Lists/Vehicle Lists/Trains.list" />
+	<file src="Lists/Vehicle Lists/Boats.list" />
+	<file src="Lists/Vehicle Lists/Lowriders.list" />
+	<file src="Lists/Vehicle Lists/Trailers.list" />
+	<file src="Lists/Vehicle Lists/SUVs and Wagons.list" />
+	<file src="Lists/Vehicle Lists/Industrial.list" />
+	<file src="Lists/Vehicle Lists/Other.list" />
+	<file src="Lists/Vehicle Lists/Trucks.list" />
+	<file src="Lists/Vehicle Lists/2-Door.list" />
+	<file src="Lists/Vehicle Lists/Bicycles.list" />
+	<file src="Lists/Vehicle Lists/Vans.list" />
+	<file src="Lists/Vehicle Lists/RC Vehicles.list" />
+	<file src="Lists/Vehicle Lists/Sports Cars.list" />
+	
+	<file src="Content/keys/,.png" />
+	<file src="Content/keys/dot.png" />
+	<file src="Content/keys/'.png" />
+	<file src="Content/keys/-.png" />
+	<file src="Content/keys/;.png" />
+	<file src="Content/keys/[.png" />
+	<file src="Content/keys/].png" />
+	<file src="Content/keys/`.png" />
+	<file src="Content/keys/=.png" />
+	<file src="Content/keys/0.png" />
+	<file src="Content/keys/1.png" />
+	<file src="Content/keys/2.png" />
+	<file src="Content/keys/3.png" />
+	<file src="Content/keys/4.png" />
+	<file src="Content/keys/5.png" />
+	<file src="Content/keys/6.png" />
+	<file src="Content/keys/7.png" />
+	<file src="Content/keys/8.png" />
+	<file src="Content/keys/9.png" />
+	<file src="Content/keys/a.png" />
+	<file src="Content/keys/arrow_d.png" />
+	<file src="Content/keys/arrow_u.png" />
+	<file src="Content/keys/arrow_l.png" />
+	<file src="Content/keys/arrow_r.png" />
+	<file src="Content/keys/b.png" />
+	<file src="Content/keys/backslash.png" />
+	<file src="Content/keys/backspace.png" />
+	<file src="Content/keys/c.png" />
+	<file src="Content/keys/capslock.png" />
+	<file src="Content/keys/d.png" />
+	<file src="Content/keys/delete.png" />
+	<file src="Content/keys/e.png" />
+	<file src="Content/keys/end.png" />
+	<file src="Content/keys/enter.png" />
+	<file src="Content/keys/esc.png" />
+	<file src="Content/keys/f.png" />
+	<file src="Content/keys/f1.png" />
+	<file src="Content/keys/f2.png" />
+	<file src="Content/keys/f3.png" />
+	<file src="Content/keys/f4.png" />
+	<file src="Content/keys/f5.png" />
+	<file src="Content/keys/f6.png" />
+	<file src="Content/keys/f7.png" />
+	<file src="Content/keys/f8.png" />
+	<file src="Content/keys/f9.png" />
+	<file src="Content/keys/f10.png" />
+	<file src="Content/keys/f11.png" />
+	<file src="Content/keys/f12.png" />
+	<file src="Content/keys/g.png" />
+	<file src="Content/keys/h.png" />
+	<file src="Content/keys/home.png" />
+	<file src="Content/keys/i.png" />
+	<file src="Content/keys/insert.png" />
+	<file src="Content/keys/j.png" />
+	<file src="Content/keys/k.png" />
+	<file src="Content/keys/l.png" />
+	<file src="Content/keys/m.png" />
+	<file src="Content/keys/n.png" />
+	<file src="Content/keys/lalt.png" />
+	<file src="Content/keys/lctrl.png" />
+	<file src="Content/keys/lshift.png" />
+	<file src="Content/keys/num_0.png" />
+	<file src="Content/keys/num_1.png" />
+	<file src="Content/keys/num_2.png" />
+	<file src="Content/keys/num_3.png" />
+	<file src="Content/keys/num_4.png" />
+	<file src="Content/keys/num_5.png" />
+	<file src="Content/keys/num_6.png" />
+	<file src="Content/keys/num_7.png" />
+	<file src="Content/keys/num_8.png" />
+	<file src="Content/keys/num_9.png" />
+	<file src="Content/keys/num_add.png" />
+	<file src="Content/keys/num_dec.png" />
+	<file src="Content/keys/num_enter.png" />
+	<file src="Content/keys/num_mul.png" />
+	<file src="Content/keys/num_sub.png" />
+	<file src="Content/keys/o.png" />
+	<file src="Content/keys/p.png" />
+	<file src="Content/keys/pgup.png" />
+	<file src="Content/keys/pgdn.png" />
+	<file src="Content/keys/q.png" />
+	<file src="Content/keys/question.png" />
+	<file src="Content/keys/r.png" />
+	<file src="Content/keys/ralt.png" />
+	<file src="Content/keys/rctrl.png" />
+	<file src="Content/keys/rshift.png" />
+	<file src="Content/keys/s.png" />
+	<file src="Content/keys/slash.png" />
+	<file src="Content/keys/space.png" />
+	<file src="Content/keys/t.png" />
+	<file src="Content/keys/tab.png" />
+	<file src="Content/keys/u.png" />
+	<file src="Content/keys/v.png" />
+	<file src="Content/keys/w.png" />
+	<file src="Content/keys/x.png" />
+	<file src="Content/keys/y.png" />
+	<file src="Content/keys/z.png" />
+	
+	<file src="Content/keys/mouse1.png" />
+	<file src="Content/keys/mouse2.png" />
+	<file src="Content/keys/mouse3.png" />
+	<file src="Content/keys/mouse_wheel_up.png" />
+	<file src="Content/keys/mouse_wheel_down.png" />
+</meta>

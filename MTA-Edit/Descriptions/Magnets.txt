@@ -1,0 +1,4 @@
+Strength of the Magnets
+
+(Can be enabled by activating
+freeMove and hitting M)

@@ -1,0 +1,2 @@
+If you feel the freecam is rotating
+to slow or fast; adjust this.

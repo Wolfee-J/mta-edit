@@ -1,0 +1,4 @@
+Paste individual axis's 
+position, or the exact
+previously copied
+position

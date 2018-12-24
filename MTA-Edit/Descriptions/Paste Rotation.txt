@@ -1,0 +1,4 @@
+Paste individual axis's 
+rotation, or the exact
+previously copied
+rotation
