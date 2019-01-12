@@ -1,6 +1,5 @@
-# mta edit
+# Mta Edit
+  The Future in MTA Map editing
 
-The Future in MTA Map editing
-
-#Alpha
-(Still Heavily Work in Progress)
+## Content Usage
+  You are allowed to use any content from this resource, however please supply proper credits.
