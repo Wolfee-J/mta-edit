@@ -1,5 +1,5 @@
 <meta>
-	<info type="script" name="Map Editor 2.0" author="CodyJ" description="JEditor" version="1.0.0" />
+	<info type="script" name="Multi Theft Auto Edit" author="CodyJ" description="JEditor" version="0.1.3" />
 	<oop>true</oop> 
 	<script type="client" src="Client/Client.lua" />
 	<script type="client" src="Client/Image.lua" />
@@ -33,6 +33,8 @@
 	<script type="client" src="Client/Element Manipulation Set.lua" />
 	<script type="client" src="Client/Undo Redo System.lua" />
 	<script type="client" src="Client/Search.lua" />
+	<script type="client" src="Client/Saving System.lua" />
+	<script type="client" src="Client/Notification System.lua" />
 	<script type="client" src="Client/Grid Snap.lua" />
 	
 	<script type="server" src="Server/Server.lua" />
@@ -46,6 +48,16 @@
 	<script type="server" src="Server/Translation System.lua" />
 	<script type="server" src="Server/World Element Handler.lua" />
 	
+	<script type="server" src="Server/Map Save System.lua" />
+	<script type="server" src="Server/Saving/Generic Saving.lua" />
+	<script type="server" src="Server/Saving/Blip Saving.lua" />
+	<script type="server" src="Server/Saving/Marker Saving.lua" />
+	<script type="server" src="Server/Saving/Object Saving.lua" />
+	<script type="server" src="Server/Saving/Ped Saving.lua" />
+	<script type="server" src="Server/Saving/Pickup Saving.lua" />
+	<script type="server" src="Server/Saving/Radar Area Saving.lua" />
+	<script type="server" src="Server/Saving/Vehicle Saving.lua" />
+	<script type="server" src="Server/Saving/Water Saving.lua" />
 	
 	<file src="Content/EDF/checkpoint.png" />
 	<file src="Content/EDF/flag.png" />

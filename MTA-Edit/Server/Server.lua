@@ -64,6 +64,31 @@ functions.generateElementID = function (elementType)
 end
 
 
+functions.rgb2hex = function(r,g,b,a)
+	local rgb = {r,g,b,a}
+	local hexadecimal = '#'
 
+	for key = 1, #rgb do
+	    local value = rgb[key] 
+		local hex = ''
 
+		while(value > 0)do
+			local index = math.fmod(value, 16) + 1
+			value = math.floor(value / 16)
+			hex = string.sub('0123456789ABCDEF', index, index) .. hex			
+		end
 
+		if(string.len(hex) == 0)then
+			hex = '00'
+		elseif(string.len(hex) == 1)then
+			hex = '0' .. hex
+		end
+		hexadecimal = hexadecimal .. hex
+	end
+
+	return hexadecimal
+end
+
+functions.sendVersion = function()
+	functions.client(client,'receiveVersion', getResourceInfo ( getThisResource(), 'version' ))
+end

@@ -1,0 +1,24 @@
+The file type of the map,
+**.map**
+- Largest
+- Most supported
+- Requires libararies for
+more complicated saving
+- 'Currently' unable to
+save custom objects
+**.lua**
+- Medium Size
+- Less supported
+- 'Currently' unable to
+save custom objects
+**.JSP**
+- Smallest
+- Object Only
+- Least Supported
+- Can save custom object(s)
+- Requires JStreamer (TBDC)
+**.MTAP**
+- Smallest
+- Least supported
+- Can save custom element(s)
+- Requires MTALoad (TBA)

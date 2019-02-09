@@ -1,0 +1,3 @@
+Editor Defintions File elements
+Used for a varienty of things such
+as spawns, capture points, ect.

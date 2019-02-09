@@ -149,7 +149,7 @@ functions['Check Box'] = function (arguments,x,y,w,h,side,_,fadePercent)
 	dxDrawImage(x+(120*s),y+(h/2)-(width/2), width,width,check, 0, 0, 0, tocolor(0, 0, 0, (200-(hover*20))*fadePercent),true)	
 	end
 
-	dxDrawText(functions.fetchTranslation(arguments[2]), x+(20*s), y, x+(239*s), (y+h), tocolor(255, 255, 255, 200*fadePercent), 1.00*s, "default-bold", "left", "center", false, false, true, false, false)
+	dxDrawText(functions.fetchTranslation(arguments[2]), x+(10*s), y, x+(239*s), (y+h), tocolor(255, 255, 255, 200*fadePercent), 1.00*s, "default-bold", "left", "center", false, false, true, false, false)
 end
 
 addEvent ( "Check Box Change", true )
@@ -310,7 +310,7 @@ functions['Create Vehicle'] = function(arguments,x,y,w,h,side,_,_,fadePercent)
 	local fadePercent = tonumber(fadePercent) or 1
 	local width = h/2
 	
-	local image = functions.prepImage('Vehicle')
+	local image = functions.prepImage('Create Vehicle')
 	
 	local hover = functions.isCursorOnElement(x,y,w,h,'Place Vehicle',arguments[3],arguments[2],arguments[3] )
 	

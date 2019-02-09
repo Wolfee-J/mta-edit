@@ -12,6 +12,12 @@ menus.right['Settings'].lists['Map Settings'] = {}
 table.insert(menus.right['Settings'].lists['Map Settings'],{'Check Box','Show World'})
 lSecession.variables['Show World'] = {true}
 
+
+table.insert(menus.right['Settings'].lists['Map Settings'],{'Option','Map Type',{'.map','.lua','.JSP'}})
+lSecession.variables['Map Type'] = lSecession.variables['Map Type'] or {'.map',1}
+
+table.insert(menus.right['Settings'].lists['Map Settings'],{'Edit Box','R-Name'})
+
 functions.checkBoxChangeSWM = function( name,toggle )
 	if name == 'Show World' then
 		if toggle then

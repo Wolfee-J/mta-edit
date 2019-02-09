@@ -28,8 +28,6 @@ mGet.Rotation = function(element,useElementData)
 	return true
 end
 
---
-
 mGet.Interior = function(element,useElementData)
 	if element then
 		if useElementData then

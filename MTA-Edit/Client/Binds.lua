@@ -153,6 +153,11 @@ table.insert(binds.sBinds,{'mouse1','Select Element','getHighLighted'})
 
 functions['Toggle Cursor'] = function ()
 	showCursor(not isCursorShowing())
+	if isCursorShowing() then
+		functions.sendNotification('Cursor Enabled')
+	else
+		functions.sendNotification('Cursor Disabled')
+	end
 end
 table.insert(binds.sBinds,{'q','Toggle Cursor'})
 
@@ -163,6 +168,7 @@ functions['Toggle Freecam'] = function ()
 		setFreecamEnabled(x,y,z,xa,ya,za)
 		setElementPosition(localPlayer,1000,100,100)
 		setElementFrozen(localPlayer,true)
+		functions.sendNotification('Freecam Enabled')
 	else
 		lSecession.freeMovement = nil
 		local x,y,z = getCameraMatrix()
@@ -170,6 +176,7 @@ functions['Toggle Freecam'] = function ()
 		setElementPosition(localPlayer,x,y,z)
 		setCameraTarget(localPlayer)
 		setElementFrozen(localPlayer,false)
+		functions.sendNotification('Freecam Disabled')
 	end
 end
 table.insert(binds.sBinds,{'e','Toggle Freecam'})
@@ -182,6 +189,7 @@ functions['Change Freecam Speed'] = function ()
 	else
 		lSecession.variables['Speed'] = {list[new],new}
 	end
+	functions.sendNotification('Freecam speed set to '..list[1]..'.')
 end
 table.insert(binds.sBinds,{'f','Change Freecam Speed'})
 
@@ -191,6 +199,9 @@ functions['Toggle Freemove'] = function ()
 		
 		if not lSecession.freeMovement then
 			functions.activateMagnets()
+			functions.sendNotification('Freemove Enabled')
+		else
+			functions.sendNotification('Freemove Enabled')
 		end
 	end
 end
@@ -216,6 +227,11 @@ table.insert(binds.sBinds,{{'lshift','c'},'Copy Selected','getSelectedOrHighligh
 
 functions['Toggle Magnets'] = function ()
 	lSecession.eMagnets = not lSecession.eMagnets
+	if lSecession.eMagnets then
+		functions.sendNotification('Magnets Enabled')
+	else	
+		functions.sendNotification('Magnets Disabled')
+	end
 end
 table.insert(binds.sBinds,{'m','Toggle Magnets','getSelected'})
 
@@ -245,6 +261,7 @@ functions['Snap to Grid'] = function (key)
 	if not(((x-newx)+(y-newy)+(z-newz)) == 0) then
 		local changex,changey,changez= (newx-x),(newy-y),(newz-z)
 		functions.addSelectedPosition(changex,changey,changez,'World')
+		functions.sendNotification('Selected elements snapped to grid.')
 		return
 	end
 end

@@ -1,0 +1,3 @@
+Resource Name, used to
+specifiy the folder that
+the map will be saved to.

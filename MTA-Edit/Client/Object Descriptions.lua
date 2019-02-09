@@ -5,7 +5,7 @@ functions.getElementDescription = function(element)
 	elseif getElementType(element) == 'object' then
 		return (tostring(getElementID(element))..':'..(getElementData(element,'mID') or '')),functions.prepImage('Object')
 	elseif getElementType(element) == 'vehicle' then
-		return (tostring(getVehicleNameFromModel(getElementModel(element)))..':'..(getElementData(element,'mID') or '')),functions.prepImage('Vehicle')
+		return (tostring(getVehicleNameFromModel(getElementModel(element)))..':'..(getElementData(element,'mID') or '')),functions.prepImage('Create Vehicle')
 	end
 end
 
