@@ -10,10 +10,6 @@ binds.settings = {}
 binds.settings.size = 28
 binds.settings.boarder = 16
 binds.settings.start = (menus.settings.height+1)*(#menus.left.items+1)
--- table.insert(lSecession.sBinds,{'b','showCursor'}) <-- It's that easy
--- table.insert(lSecession.sBinds,{'e','showCursor','isElementSelected'}) <-- Wanna make it only go if a variable is true?
--- table.insert(lSecession.sBinds,{{'e','q'},'showCursor','isElementSelected'}) <-- Multiple Binds?
--- table.insert(lSecession.sBinds,{{'e','q'},'showCursor',1}) <-- Hide from bind list?
 
 -- Generic Functions --
 functions.shouldShow = function (input)
@@ -113,8 +109,6 @@ functions.onClientKey = function(key, press)
     end
 end
 addEventHandler("onClientKey", root, functions.onClientKey)
-
-
 
 -- Functions --
 
@@ -276,14 +270,3 @@ functions['Delete World'] = function()
 	local id,x,y,z = functions.findHighLightedWorldElement()
 	functions.server('Remove World Element',id,x,y,z)
 end
-
-
-
-
-
-
-
-
-
-
-
